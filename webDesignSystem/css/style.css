@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  font-family: 'Helvetica', sans-serif;
+  background-color: #fffff0;
+}
+
+/* Title Section */
+
+header {
+  position: fixed;
+  top: 0;
+  z-index: 2;
+  height: 80px;
+  width: 100%;
+  border-bottom: 2px solid black;
+  background-color: white;
+}
+
+header h1 {
+  margin: auto;
+  padding: 20px 20px;
+  display: inline-block;
+}
+
+header ul {
+  margin: auto;
+  padding: 25px 20px;
+  display: inline-block;
+}
+
+header li {
+  font-size: 1.3em;
+  display: inline-block;
+  margin: 0px 20px;
+}
+
+nav {
+  float: right;
+}
+
+nav a {
+  color: f8f8f8;
+}
+
+
+/* Color Section */
+
+.box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.section-left {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content:left;
+}
+
+.colorbox {
+  margin: 20px;
+  min-height: 100px;
+  width: 30%;
+  border: 3px solid black;
+  text-align: center;
+}
+
+#aquamarine {
+  background-color: #7fffd4;
+  color: #fff;
+}
+
+#coral {
+  background-color: #ff7f50;
+  color: #fff;
+}
+
+#fuchsia {
+  background-color: #ff00ff;
+  color: #fff;
+}
+
+#gold {
+  background-color: #ffd700;
+  color: #fff;
+}
+
+#lavender {
+  background-color: #e6e6fa;
+  color: #fff;
+}
+
+#orange-red {
+  background-color: #ff4500;
+  color: #fff;
+}
+
+#pink {
+  background-color: #ffc0cb;
+  color: #fff;
+}
+
+#colors {
+  margin: 95px auto 50px auto;
+  width: 90%;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.section {
+  margin: 50px auto 50px auto;
+  width: 90%;
+  border: 1px solid black;
+  background-color: white;
+}
+
+.title {
+  width: 100%;
+    border-bottom: 1px dotted black;
+    padding:20px 0px;
+    margin: 0px;
+    text-align: center;
+}
+
+.anchor {
+        position: relative;
+        left: 0px;
+        top: -80px;
+}
+
+/* Font Section */
+
+.fontbox {
+  margin: 20px 20px 20px 20px;
+  padding-left: 7px;
+  min-height: 100%;
+  background-color: white;
+  font-size: 17px;
+  border-left: 3px solid black;
+}
+
+.font-label {
+    font-size: 1.5rem;
+}
+
+.regular {
+    font-style: normal;
+  }
+  
+.italic {
+    font-style: italic;
+  }
+  
+.bold {
+    font-weight: 700;
+  }
+
+.lato {
+  font-family: 'Lato', sans-serif;
+}
+
+.kaisei-tokumin {
+  font-family: 'Kaisei Tokumin', sans-serif;
+}
+
+.nunito-sans {
+  font-family: 'Nunito Sans', sans-serif;
+}
+  
+/* Text Style Section */
+.text-panel h1 {
+    font-weight: 700;
+    font-size: 32px;
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  
+  .text-panel h2 {
+    font-weight: 500;
+    font-size: 18px;
+    font-family: 'Lato', sans-serif;
+  }
+  
+  .text-panel p {
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Kaisei Tokumin', sans-serif;
+  }
+
+  .text-container {
+    margin-left: 50px;
+}
+
+.text-panel {
+    margin: 20px;
+  }
