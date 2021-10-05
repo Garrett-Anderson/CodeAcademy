@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+/*Global Styles*/
+
+html {
+  font-family: "PLayfair Display", serif;
+  font-size: 20px;
+}
+
+body {
+  margin-top: 80px;
+  padding: 30px;
+  text-align: center;
+}
+
+img {
+  height 40px;
+  width: 100%;
+}
+/*Title and Nav Bar*/
+
+header img {
+  width: 200px;
+  margin-left: 30px;
+}
+
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  box-shadow: 0 0 25px 0 black;
+  position: fixed;
+  z-index: 1;
+  opacity: 0.9;
+}
+
+header * {
+  display: inline;
+}
+
+header li {
+  margin: 80px;
+  justify-content: space-around;
+}
+
+header li a {
+  color: black;
+  text-decoration: none;
+}
+
+
+/*Mission Statement*/
+
+.mission {
+  display: flex;
+  position: relative;
+  height: 300px;
+  width: 100%;
+  background-image: url(/Resources/asnim-ansari-SqYmTDQYMjo-unsplash.jpg);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; 
+  align-items: center;
+  justify-content: center;
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-size: 2rem;
+  text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+              0px 8px 13px rgba(0,0,0,0.1),
+              0px 18px 23px rgba(0,0,0,0.1);
+}
+
+
+
+
+/*Functions*/
+
+#portfolio {
+  min-height: 500px;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 100px;
+  text-align: left;
+}
+
+.functions {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.benefit {
+  width: 300px;
+  min-height: 300px;
+  display: flex;
+  align-items: flex-end;
+  border: 3px solid white;
+}
+
+.benefit h3 {
+  width: 100%;
+  background-color: white;
+  padding: 10px;
+  opacity: 0.8;
+}
+
+#location {
+  background-image: url("/Resources/tamas-tuzes-katai-rEn-AdBr3Ig-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-grow-1;
+}
+
+#city {
+  background-image: url("/Resources/ben-o-bro-wpU4veNGnHg-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-grow: 5;
+}
+
+#updated {
+  background-image: url("/Resources/glenn-carstens-peters-npxXWgQ33ZQ-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-grow: 5;
+}
+
+#menu {
+  background-image: url("/Resources/spencer-davis-dnQ5sauaFz0-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-grow: 1;
+}
+
+#reviews {
+  background-image: url("/Resources/eaters-collective-i_xVfNtQjwI-unsplash.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  flex-grow: 5;
+}
+
+
+
+/*Our Team*/
+
+
+
+
+
+/*Contact Info*/
